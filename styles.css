@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #6b7280;
   color: #eff6ff;
   font-weight: bolder;
@@ -17,4 +17,8 @@ h2{
 }
 .para{
     color: pink;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
 }
