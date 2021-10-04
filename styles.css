@@ -23,8 +23,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 :root{
-    --primary-color:#161280
-    ;
+    --primary-color:#161280;
+    --dark-gray:#6B7280;
 }
 hr{
     margin:2rem 0rem;
@@ -81,4 +81,21 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold   ;
+}
+/** header **/
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
