@@ -41,37 +41,39 @@
       We don't want to show bullets in the unordered lists.We'll remove that
       with CSS
     </p>
-    <ul>
+    <ul class="list-non-bullet">
       <li>item One</li>
       <li>item Two</li>
       <li>item Three</li>
     </ul>
     <h3>unordered inline lists</h3>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">Inline One</li>
+      <li class="list-item-inline">Inline Two</li>
+      <li class="list-item-inline">Inline Three</li>
     </ul>
     <h3>reverse unordered lists</h3>
-    <ol>
+    <ol reversed>
       <li>Milk</li>
       <li>Eggs</li>
       <li>dry fruits</li>
     </ol>
     <hr>
     <h3>@nav</h3>
-    <div class="container">iAmBrand</div>
-    <ul>
-      <li>
-        <a href="/">Home</a>
+    <nav class="navigation">
+    <div class="nav-brand">iAmBrand</div>
+    <ul class="list-non-bullet nav-pills">
+      <li class="list-item-inline">
+        <a class='link link-active'href="/">Home</a>
       </li>
-      <li>
-        <a href="/">Products</a>
+      <li class="list-item-inline">
+        <a class='link' href="/">Products</a>
       </li>
-      <li>
-        <a href="/">About</a>
+      <li class="list-item-inline">
+        <a class='link' href="/">About</a>
       </li>
     </ul>
+  </nav>
     <hr>
     <h2>HeaderONlyy</h2>
     <header>
