@@ -22,11 +22,31 @@ h2{
 body{
     font-family: 'Montserrat', sans-serif;
 }
+:root{
+    --primary-color:#161280
+    ;
+}
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 .container-center{
     margin:auto;
     max-width: 600px;
+}
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    color: #BFDBFE;
+    border-radius: 0.5rem;
+    margin-right: 5px;
+}
+.link-seacondary{
+    /* background-color:var(--primary-color); */
+    color: #1E3A8A  ;
+    border-radius: 0.5rem;
+    border:1px solid var(--primary-color);
 }
