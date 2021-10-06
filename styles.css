@@ -21,10 +21,12 @@ h2{
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 :root{
     --primary-color:#161280;
     --dark-gray:#6B7280;
+    --off-white:#F3F4F6;
 }
 hr{
     margin:2rem 0rem;
@@ -47,6 +49,7 @@ hr{
     border-radius: 0.5rem;
     margin-right: 5px;
 }
+
 .link-seacondary{
     /* background-color:var(--primary-color); */
     color: #1E3A8A  ;
@@ -98,4 +101,29 @@ hr{
 }
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/** section **/
+.section{
+    padding:2rem; 
+}
+.section h1{
+    text-align: center;   
+}
+.ow{   
+    background-color: var(--off-white);
+    border-radius: 1rem;
+}
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
